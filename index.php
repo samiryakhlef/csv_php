@@ -13,7 +13,19 @@
    
     <form action="import_csv.php" method="post" accept-charset="utf-8" enctype="multipart/form-data">
 <input type="file" name="file" required>
-<input type="submit" name="btn_submit" value="Upload File" />
+<input type="submit" name="btn_submit" value="Upload File" /><br>
+
+<table>
+    <th>firstname</th>
+    <th>lastname</th>
+    <th>email</th>
+    <th>profession</th>
+    <th>birthdate</th>
+    <th>country</th>
+    <th>phone</th>
+   
+
+</table>
 </body>
 
 </html>
